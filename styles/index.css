@@ -24,9 +24,11 @@ button{
     padding: 12px 36px;
     cursor: pointer;
 }
+body{
+    background: rgba(78, 71, 255, 0.05);
+}
 main{
     margin: 0 150px;
-
 }
 section{
     margin: 100px 0;
@@ -78,4 +80,33 @@ nav h3{
 }
 .action img{
     border-radius: 50px;
+}
+/* user section styles */
+.users{
+    text-align: center;
+    background: rgba(78, 71, 255, 0.102);
+    border-radius: 25px;
+    padding: 50px 80px;
+}
+.user-title{
+    font-weight: 700;
+    font-size: 45px;
+}
+.user-container{
+    display: flex;
+    justify-content: space-around;
+}
+.data-container{
+    /* align-items: center; */
+
+}
+.user-data{
+    font-weight: 700;
+    font-size: 80px;
+    margin: 0;
+}
+.user-status{
+    font-size: 20px;
+    color: #808080;
+    margin-top: 0;
 }
