@@ -22,8 +22,15 @@ button{
     border: none;
     border-radius: 10px;
     padding: 12px 36px;
+    cursor: pointer;
 }
+main{
+    margin: 0 150px;
 
+}
+section{
+    margin: 100px 0;
+}
 /* header styles */
 header{
     width: 100%;
@@ -50,4 +57,25 @@ nav h3{
     font-weight: 700;
     font-size: 85px;
     color: #252432;
+}
+/* action section styles */
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.action-container{
+    margin: 65px 0;
+}
+.action-title{
+    font-weight: 700;
+    font-size: 45px;
+}
+.action-description{
+    color: #808080;
+    font-size: 24px;
+    width: 500px;
+}
+.action img{
+    border-radius: 50px;
 }
