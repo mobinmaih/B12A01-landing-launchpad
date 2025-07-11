@@ -96,10 +96,6 @@ nav h3{
     display: flex;
     justify-content: space-around;
 }
-.data-container{
-    /* align-items: center; */
-
-}
 .user-data{
     font-weight: 700;
     font-size: 80px;
@@ -110,3 +106,43 @@ nav h3{
     color: #808080;
     margin-top: 0;
 }
+/* feedback style */
+.reviews h3{
+    text-align: center;
+}
+.review-title{
+    font-weight: 700;
+    font-size: 43px;
+}
+.review-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.review-column{
+    padding: 24px;
+    border-radius: 15px;
+    background: #fff;
+}
+ .stars{
+    margin: 14px 0;
+    align-content: last baseline;
+    gap: 5px;
+ }
+ .review{
+    margin: 14px 0;
+    align-content: last baseline;
+ }
+ .reviewer{
+    margin: 14px;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    align-items:center;
+ }
+.reviewer img{
+    border-radius: 50%;
+ }
+ .reviewer .name{
+    width: 100%;
+ }
