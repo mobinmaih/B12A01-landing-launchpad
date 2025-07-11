@@ -146,3 +146,24 @@ nav h3{
  .reviewer .name{
     width: 100%;
  }
+ /* focus Section Styles */
+ .focus{
+    text-align: center;
+    background: #fff;
+    border-radius: 25px;
+    padding: 50px;
+ }
+.focus-title{
+    font-weight: 700;
+    font-size: 45px;
+}
+.focus-description{
+    font-size: 20px;
+    color: #808080;
+}
+.focus button{
+    margin-bottom: 25px;
+}
+.focus img{
+    border-radius: 30px;
+}
